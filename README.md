@@ -1,1 +1,2 @@
-# test
+# Taurine chinese traditional build test
+testonly
