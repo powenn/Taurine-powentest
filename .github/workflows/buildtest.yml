@@ -20,7 +20,7 @@ jobs:
           cd Taurine/resources && tar -cf basebinaries.tar amfidebilitate img4tool jailbreakd jbexec launchjailbreak pspawn_payload-stg2.dylib pspawn_payload.dylib
           rm -f Taurine/resources/{amfidebilitate,img4tool,jailbreakd,jbexec,launchjailbreak,*.dylib}
           cd ../..
-          xcodebuild clean build ONLY_ACTIVE_ARCH=NO PRODUCT_BUNDLE_IDENTIFIER='com.OdysseyTeam.Taurine' CODE_SIGNING_ALLOWED="NO" -sdk iphoneos -scheme Taurine -configuration Release -derivedDataPath build
+          xcodebuild clean build ONLY_ACTIVE_ARCH=NO PRODUCT_BUNDLE_IDENTIFIER='com.odysseyTeam.taurine' CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED="NO" -sdk iphoneos -scheme Taurine -configuration Release -derivedDataPath build
           ln -sf build/Build/Products/Release-iphoneos Payload
           rm -rf Payload/Taurine.app/Frameworks
           zip -r9 Taurine.ipa Payload/Taurine.app
