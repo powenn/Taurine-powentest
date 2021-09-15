@@ -1,19 +1,3 @@
-# Taurine-powentest
-<center>
-  <a href="#"><img src="https://github.com/powenn/Taurine-powentest/blob/main/photos/01.png?raw=true" alt="Logo"></a>
-</center>
-
-Maybe will be a localization support version of Taurine
-
-# Supported additional language list
-- Chinese Traditional
-
-## Want to add localization support ?
-Just fork this repo and make pull request 
-
-![Demo photo][1]
-
-## License 
 BSD 4-Clause License
 
 Copyright (c) 2021, Odyssey Team
@@ -47,11 +31,3 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-*from [OdysseyTeam-Taurine](https://github.com/Odyssey-Team/Taurine)*
-
-![Demo photo][2]
-
-
-[1]:https://github.com/powenn/Odyssey-powentest/blob/main/photos/01.png
-[2]:https://github.com/powenn/Odyssey-powentest/blob/main/photos/02.png
