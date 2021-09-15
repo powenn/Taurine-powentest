@@ -892,7 +892,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="217" height="224"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JxG-D8-fzV" userLabel="Themes View">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="217" height="584"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="217" height="629"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSq-ju-45o" customClass="SelectionButton" customModule="Taurine" customModuleProvider="target">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="217" height="44"/>
@@ -1247,15 +1247,55 @@
                                                                                     <outlet property="checkmarkImage" destination="whu-tq-Sza" id="NmV-cf-r7Z"/>
                                                                                 </connections>
                                                                             </view>
-                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3JR-Co-r75" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jku-mq-sSe" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
                                                                                 <rect key="frame" x="0.0" y="404" width="217" height="1"/>
+                                                                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="1" id="g9X-18-FTQ"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGY-kj-eXU" customClass="SelectionButton" customModule="Taurine" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="405" width="217" height="44"/>
+                                                                                <subviews>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sierra(@p0shboi)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWq-ZM-xpJ">
+                                                                                        <rect key="frame" x="15" y="10" width="156.5" height="24"/>
+                                                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                                                        <nil key="textColor"/>
+                                                                                        <nil key="highlightedColor"/>
+                                                                                    </label>
+                                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" image="checkmark" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1r-H2-2wy">
+                                                                                        <rect key="frame" x="186.5" y="15.5" width="15.5" height="13.5"/>
+                                                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="regular"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="E1r-H2-2wy" firstAttribute="leading" secondItem="IWq-ZM-xpJ" secondAttribute="trailing" constant="15" id="B7h-59-DpT"/>
+                                                                                    <constraint firstAttribute="height" constant="44" id="GUf-6V-vbJ"/>
+                                                                                    <constraint firstItem="IWq-ZM-xpJ" firstAttribute="leading" secondItem="BGY-kj-eXU" secondAttribute="leading" constant="15" id="GeA-Bj-BCI"/>
+                                                                                    <constraint firstItem="E1r-H2-2wy" firstAttribute="centerY" secondItem="BGY-kj-eXU" secondAttribute="centerY" id="XNd-DD-Syz"/>
+                                                                                    <constraint firstItem="IWq-ZM-xpJ" firstAttribute="top" secondItem="BGY-kj-eXU" secondAttribute="top" constant="10" id="eBs-Yk-Ocx"/>
+                                                                                    <constraint firstAttribute="bottom" secondItem="IWq-ZM-xpJ" secondAttribute="bottom" constant="10" id="l5B-Kb-cy8"/>
+                                                                                    <constraint firstAttribute="trailing" secondItem="E1r-H2-2wy" secondAttribute="trailing" constant="15" id="o3p-F4-uG9"/>
+                                                                                </constraints>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="defaultsKey" value="theme"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="defaultsValue" value="Sierra"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="notificationName" value="ThemeChangeNotification"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                                <connections>
+                                                                                    <outlet property="checkmarkImage" destination="E1r-H2-2wy" id="P4d-eO-86f"/>
+                                                                                </connections>
+                                                                            </view>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3JR-Co-r75" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="449" width="217" height="1"/>
                                                                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="1" id="t1q-R0-kig"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NpH-iv-oyt" userLabel="Custom Background Button" customClass="SelectionButton" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="405" width="217" height="44"/>
+                                                                                <rect key="frame" x="0.0" y="450" width="217" height="44"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byk-Lw-hsL">
                                                                                         <rect key="frame" x="15" y="10" width="156.5" height="24"/>
@@ -1288,14 +1328,14 @@
                                                                                 </connections>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gl-Wx-yHS" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="449" width="217" height="1"/>
+                                                                                <rect key="frame" x="0.0" y="494" width="217" height="1"/>
                                                                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="1" id="otI-Hi-0dl"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFz-0y-lNl" userLabel="Select Custom Image" customClass="PanelButton" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="450" width="217" height="44"/>
+                                                                                <rect key="frame" x="0.0" y="495" width="217" height="44"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Custom Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-ib-3pR" userLabel="Choose Custom Image">
                                                                                         <rect key="frame" x="15" y="10" width="187" height="24"/>
@@ -1316,14 +1356,14 @@
                                                                                 </connections>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1g-Vr-zXs" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="494" width="217" height="1"/>
+                                                                                <rect key="frame" x="0.0" y="539" width="217" height="1"/>
                                                                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="1" id="7wm-ur-lS2"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Y5-ru-yU5" userLabel="Custom Colour Button" customClass="SelectionButton" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="495" width="217" height="44"/>
+                                                                                <rect key="frame" x="0.0" y="540" width="217" height="44"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Colour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2g-5l-bAg">
                                                                                         <rect key="frame" x="15" y="10" width="156.5" height="24"/>
@@ -1356,14 +1396,14 @@
                                                                                 </connections>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pH0-hZ-B6b" customClass="SeparatorView" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="539" width="217" height="1"/>
+                                                                                <rect key="frame" x="0.0" y="584" width="217" height="1"/>
                                                                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="1" id="mgP-re-PP6"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KYZ-5W-xzs" userLabel="Select Custom Colour " customClass="PanelButton" customModule="Taurine" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="540" width="217" height="44"/>
+                                                                                <rect key="frame" x="0.0" y="585" width="217" height="44"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modify Colour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U07-cS-RFC">
                                                                                         <rect key="frame" x="15" y="10" width="161" height="24"/>

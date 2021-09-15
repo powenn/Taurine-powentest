@@ -88,7 +88,7 @@ class ViewController: UIViewController, ElectraUI {
                 if (updateRequired) {
                     DispatchQueue.main.async {
                         UIView.animate(withDuration: 0.5) {
-                            self.updateOdysseyView.isHidden = false
+                            self.updateOdysseyView.isHidden = true
                         }
                     }
                 }

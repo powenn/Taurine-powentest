@@ -57,6 +57,18 @@ class ThemesManager {
             enableBlur: true,
             copyrightString: "Neptune and Monarch (Azur Lane)\nWallpaper © 2019, Zolaida\nWallpaper used under CC BY-NC-ND 3.0 license\nOriginal wallpaper from DeviantArt"),
         
+        "Sierra": Theme(
+            colorViewBackgrounds: [
+                .init(baseColour: .black, linearGradients: [
+                    .init(colours: [.black], angle: 0)
+                ], overlayImage: nil)
+            ],
+            backgroundImage: UIImage(named: "Sierra"),
+            backgroundCenter: CGPoint(x: 1440, y: 900),
+            backgroundOverlay: UIColor(white: 0, alpha: 0.0),
+            enableBlur: true,
+            copyrightString: "From Odyssey jailbreak theme"),
+        
         "linus": Theme(
             colorViewBackgrounds: [
                 .init(baseColour: .black, linearGradients: [
