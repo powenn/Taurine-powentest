@@ -53,5 +53,5 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ![Demo photo][2]
 
 
-[1]:https://github.com/powenn/Odyssey-powentest/blob/main/photos/01.png
-[2]:https://github.com/powenn/Odyssey-powentest/blob/main/photos/02.png
+[1]:https://github.com/powenn/Taurine-powentest/blob/main/photos/03.png
+[2]:https://github.com/powenn/Taurine-powentest/blob/main/photos/02.png
