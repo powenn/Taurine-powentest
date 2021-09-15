@@ -1,6 +1,6 @@
 # Taurine-powentest
 <center>
-  <a href="#"><img src="https://i.imgur.com/hDqP9sV.png" alt="Logo"></a>
+  <a href="#"><img src="https://github.com/powenn/Taurine-powentest/blob/main/photos/01.png?raw=true" alt="Logo"></a>
 </center>
 
 Maybe will be a localization support version of Taurine
