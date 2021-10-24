@@ -1,4 +1,4 @@
-name: Buildtest2
+name: Buildtest3
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
